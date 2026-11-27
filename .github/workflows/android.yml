@@ -20,7 +20,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Unpack project
-        run: unzip -q KnucklebonesAndroid_Project.zip
+        run: unzip -q "KnucklebonesAndroid_Project (3).zip"
 
       - name: Build APK
         run: gradle -p KnucklebonesAndroid assembleDebug
